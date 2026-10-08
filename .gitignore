@@ -1,0 +1,9 @@
+# Original offline design bundle (source reference, not part of the site)
+FilasofTV (offline).html
+
+# Local QA artifacts
+.gstack/
+
+# OS
+.DS_Store
+Thumbs.db

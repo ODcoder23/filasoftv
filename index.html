@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1729">
+  <meta name="color-scheme" content="dark">
+  <title>FilasofTV</title>
+  <meta name="description" content="FilasofTV — anime, drama, serial va kinolarni oʻzbek tilida tomosha qilish uchun Telegram Mini App.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FilasofTV">
+  <meta property="og:description" content="Anime, drama, serial va kinolar — oʻzbek tilida. Telegram Mini App dizayni.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script>
+    /* Telegram ichida ochilganini birinchi kadrdan oldin aniqlaymiz */
+    (function () {
+      var inTg = /tgWebApp(Data|Platform|Version)=/.test(location.hash);
+      try { if (!inTg && sessionStorage.getItem('__telegram__initParams')) inTg = true; } catch (e) {}
+      if (inTg) document.documentElement.classList.add('is-tg');
+    })();
+  </script>
+</head>
+<body>
+  <div id="app">
+    <noscript><div class="noscript">FilasofTV ishlashi uchun brauzeringizda JavaScript yoqilgan boʻlishi kerak.</div></noscript>
+  </div>
+  <script src="assets/js/vendor/htm-preact.umd.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
